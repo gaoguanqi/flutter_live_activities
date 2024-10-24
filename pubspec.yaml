@@ -37,7 +37,8 @@ dependencies:
 #      url: https://github.com/btastic/flutter_native_image.git
   flutter_native_image:
     git:
-      url: https://github.com/gaoguanqi/flutter_native_image.git
+      url: https://github.com/gaoguanqi/flutter_native_image
+      ref: master
 
 dev_dependencies:
   flutter_test:

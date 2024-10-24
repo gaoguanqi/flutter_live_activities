@@ -147,11 +147,11 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: HEAD
-      resolved-ref: "9ec42470b1d76b72f26d2cc8ccf8d3d2b27c598d"
-      url: "https://github.com/gaoguanqi/flutter_native_image.git"
+      ref: master
+      resolved-ref: "92fa991553984edf259481767d8a00db47c6668d"
+      url: "https://github.com/gaoguanqi/flutter_native_image"
     source: git
-    version: "0.0.6+1"
+    version: "0.0.7"
   flutter_test:
     dependency: "direct dev"
     description: flutter
