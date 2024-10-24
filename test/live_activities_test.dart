@@ -83,6 +83,11 @@ class MockLiveActivitiesPlatform
       [AlertConfig? alertConfig]) {
     return Future.value();
   }
+
+  @override
+  Future<Map<String, LiveActivityState>> getAllActivities() {
+    throw UnimplementedError();
+  }
 }
 
 void main() {

@@ -2,6 +2,7 @@ import 'dart:io';
 import 'dart:ui';
 
 import 'package:app_group_directory/app_group_directory.dart';
+import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:flutter_native_image/flutter_native_image.dart';
 import 'package:live_activities/models/live_activity_image.dart';
 import 'package:path_provider/path_provider.dart';
@@ -64,7 +65,9 @@ class AppGroupsImageService {
             targetWidth: targetWidth,
             targetHeight: (imageHeight * targetWidth / imageWidth).round(),
           );
+
         }
+
 
         final finalDestination = '${appGroupPicture.path}/$fileName';
         file.copySync(finalDestination);
