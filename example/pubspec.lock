@@ -148,7 +148,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "41401a5abd8ad2514c303ec5e6b941af454c2e3e"
+      resolved-ref: "9ec42470b1d76b72f26d2cc8ccf8d3d2b27c598d"
       url: "https://github.com/gaoguanqi/flutter_native_image.git"
     source: git
     version: "0.0.6+1"
